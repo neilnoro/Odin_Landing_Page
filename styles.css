@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: x-large;
+  font-style: italic;
+  margin: 10px 20px;
+}
+
+.navbar .container {
+  height: 50px;
+  background-color: #414f63;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container {
+  background-color: #7da4db;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+li {
+  margin: 0 10px;
+}
+
+.container .Summary {
+  margin: 20px 20px;
+}
+
+.Sign-up {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin: 80px 80px;
+}
+
+header {
+  background-color: red;
+}
+
+section {
+  background-color: beige;
+  padding: 20p;
+}
+
+footer {
+  background-color: aqua;
+  padding: 20px;
+}
