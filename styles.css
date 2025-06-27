@@ -8,11 +8,21 @@ body {
   font-family: Roboto;
 }
 
+h2,
+p {
+  color: white;
+}
+
 h1 {
   font-weight: bold;
   font-size: x-large;
   font-style: italic;
   margin: 10px 20px;
+}
+
+.navbar a {
+  text-decoration-line: none;
+  color: white;
 }
 
 .navbar .container {
@@ -26,6 +36,9 @@ h1 {
 header .container {
   background-color: #7da4db;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 ul {
@@ -37,31 +50,30 @@ li {
   margin: 0 10px;
 }
 
-.container .Summary {
-  margin: 20px 20px;
+.Summary .Items {
+  border: 10px;
 }
 
 .Sign-up {
   background-color: blue;
-  display: flex;
-  justify-content: center;
-  margin: 10px auto;
+  color: white;
   padding: 20px;
+  width: 150px;
+  border: 30px;
 }
 
 img {
-  height: 200px;
+  height: 100px;
   width: auto;
   margin: 80px 80px;
 }
 
-header {
-  background-color: red;
-}
-
-section {
-  background-color: beige;
-  padding: 20p;
+section .container {
+  display: flex;
+  background-color: pink;
+  padding: 20px;
+  height: 150px;
+  color: grey;
 }
 
 footer {
