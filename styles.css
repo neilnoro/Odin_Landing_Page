@@ -77,18 +77,47 @@ img {
   height: 200px;
   width: auto;
   margin: 80px 80px;
+}
+
+img .photo {
   border-radius: 30%;
 }
 
+.title {
+  color: black;
+}
+
+.experience .container {
+  justify-content: space-between;
+}
+
+.experience .container,
+.experience,
+.box,
+.title {
+  background-color: white;
+}
 .box .school {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
 
-.Section-2 .container {
+.section2 .container {
+  align-items: center;
+  justify-content: center;
   background-color: pink;
   height: 500px;
+}
+
+.section2 .container .quote-box {
+  padding: 100px;
+}
+
+.newsletter .container {
+  background-color: greenyellow;
+  height: 300px;
+  justify-content: center;
 }
 
 footer {
