@@ -16,16 +16,9 @@ p {
   margin-bottom: 15px;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: x-large;
-  margin: 10px 20px;
-}
-
 .container {
   display: flex;
-  max-width: 1100px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .navbar a {
@@ -36,7 +29,6 @@ h1 {
 .navbar .container {
   height: 50px;
   background-color: #1f2937;
-  color: white;
   justify-content: space-between;
 }
 
@@ -68,18 +60,20 @@ li {
   justify-content: center;
 }
 
+.experience h1 {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   height: 200px;
   width: auto;
   margin: 80px 80px;
 }
 
-.container .School {
-  display: flex;
-  background-color: pink;
-  padding: 20px;
-  height: 150px;
-  color: grey;
+.boxes img {
+  width: auto;
+  height: 125px;
 }
 
 footer {
