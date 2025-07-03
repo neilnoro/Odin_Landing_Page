@@ -106,16 +106,24 @@ img .photo {
 .section2 .container {
   align-items: center;
   justify-content: center;
-  background-color: pink;
+  background-color: #e5e7eb;
   height: 500px;
 }
 
 .section2 .container .quote-box {
-  padding: 100px;
+  padding: 50px;
+  background-color: #e5e7eb;
+}
+
+.section2 .container .quote-box p {
+  background-color: #e5e7eb;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .newsletter .container {
-  background-color: greenyellow;
+  background-color: white;
   height: 300px;
   justify-content: center;
 }
