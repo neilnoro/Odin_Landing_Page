@@ -67,6 +67,13 @@ li {
   justify-content: center;
   border-radius: 20%;
 }
+.Newsletter {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+
+  border-radius: 30%;
+}
 
 .experience h1 {
   display: flex;
@@ -126,6 +133,14 @@ img .photo {
   background-color: white;
   height: 300px;
   justify-content: center;
+  align-items: center;
+}
+
+.newsletter .container .Sign-up {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  gap: 20px;
 }
 
 footer {
