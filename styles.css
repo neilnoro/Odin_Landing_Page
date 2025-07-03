@@ -55,7 +55,7 @@ li {
   margin: 0 30px;
 }
 
-.Sign-up {
+.sign-up {
   background-color: #3882f6;
   color: white;
   padding: 20px;
@@ -136,7 +136,7 @@ img .photo {
   align-items: center;
 }
 
-.newsletter-section .container .Sign-up {
+.newsletter-section .container .sign-up {
   height: 200px;
   width: 500px;
   display: flex;
