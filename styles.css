@@ -67,7 +67,7 @@ li {
   justify-content: center;
   border-radius: 20%;
 }
-.Newsletter {
+.newsletter {
   background-color: blue;
   color: white;
   padding: 10px;
@@ -129,14 +129,14 @@ img .photo {
   font-weight: bolder;
 }
 
-.newsletter .container {
+.newsletter-section .container {
   background-color: white;
   height: 300px;
   justify-content: center;
   align-items: center;
 }
 
-.newsletter .container .Sign-up {
+.newsletter-section .container .Sign-up {
   height: 200px;
   width: 500px;
   display: flex;
