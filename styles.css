@@ -78,6 +78,7 @@ li {
 .experience h1 {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 img {
